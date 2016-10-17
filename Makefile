@@ -9,6 +9,7 @@ BUILD_FILES := $(patsubst $(SRC_DIR)/%.svg, $(BUILD_DIR)/%.js, $(SRC_FILES))
 all: package.json
 init: $(BUILD_DIR) $(MD_REPO)
 sync:
+	git pull
 	cd $(MD_REPO) && git pull
 	make -j
 
