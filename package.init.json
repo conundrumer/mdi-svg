@@ -1,0 +1,30 @@
+{
+  "name": "mdi-svg",
+  "version": "1.0.0",
+  "description": "Community Material Design Icons as SVG path data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conundrumer/mdi-svg.git"
+  },
+  "keywords": [
+    "mdi",
+    "mui",
+    "material-ui",
+    "svg",
+    "icon",
+    "icons",
+    "material",
+    "design",
+    "react"
+  ],
+  "author": "David Lu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conundrumer/mdi-svg/issues"
+  },
+  "homepage": "https://github.com/conundrumer/mdi-svg#readme"
+}
