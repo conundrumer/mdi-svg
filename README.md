@@ -3,7 +3,8 @@
 
 Contains helper functions for rendering to SVG strings and React components.
 
-Patch number corresponds to the number of commits in [MaterialDesign@master](https://github.com/Templarian/MaterialDesign)
+Patch number corresponds to the number of commits in [MaterialDesign@master](https://github.com/Templarian/MaterialDesign).
+This package auto-updates to latest MaterialDesign, daily.
 
 Special thanks to [Austin Andrews](https://github.com/Templarian) for managing Material Design Icons.
 

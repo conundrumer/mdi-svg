@@ -1,6 +1,6 @@
 {
   "name": "mdi-svg",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Community Material Design Icons as SVG path data",
   "main": "index.js",
   "scripts": {
