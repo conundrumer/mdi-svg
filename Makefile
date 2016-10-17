@@ -1,5 +1,5 @@
 MD_REPO = MaterialDesign
-MD_GIT = git@github.com:Templarian/$(MD_REPO).git
+MD_GIT = https://github.com/Templarian/MaterialDesign
 SRC_DIR = $(MD_REPO)/icons/svg
 BUILD_DIR = d
 
