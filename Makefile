@@ -25,7 +25,7 @@ package.json: package.init.json $(BUILD_FILES)
 	$(eval MAJORMINOR := $(shell node get-version.js))
 	$(eval PATCH := $(shell cd $(MD_REPO) && git rev-list HEAD --count))
 	npm --no-git-tag-version version $(MAJORMINOR).$(PATCH)
-	npm publish
+	if [ "$$PUBLISH" = true ] ; then npm publish; fi
 
 $(BUILD_DIR)/%.js: $(SRC_DIR)/%.svg
 	@echo 'building: $@'
