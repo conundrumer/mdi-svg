@@ -5,3 +5,5 @@ node_modules
 MaterialDesign
 package.json
 d
+
+.npmrc
